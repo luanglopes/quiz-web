@@ -1,1 +1,0 @@
-<p>Ebook landing</p>

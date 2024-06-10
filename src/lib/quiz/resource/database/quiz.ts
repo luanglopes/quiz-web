@@ -13,7 +13,7 @@ type Question = {
 type Quiz = {
     name: string;
     firstQuestionId: string;
-    resultEbookSlug: string;
+    resultCTALink: string;
     questions: Record<string, Question>;
 };
 
@@ -21,7 +21,7 @@ export const quizzes: Record<string, Quiz> = {
     'liberar-potencial': {
         name: 'Libere seu Potencial',
         firstQuestionId: '1',
-        resultEbookSlug: 'libere-seu-potencial',
+        resultCTALink: 'https://transformesuavida30dias.site/',
         questions: {
             '1': {
                 text: 'Qual a sua faixa etária?',

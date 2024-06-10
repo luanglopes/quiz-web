@@ -20,9 +20,6 @@
     vai te levar para os próximos passos!
 </p>
 
-<a
-    href={routes.ebook(data.quiz.resultEbookSlug)}
-    class="block w-full rounded-md bg-green-700 p-4 text-center"
->
+<a href={data.quiz.resultCTALink} class="block w-full rounded-md bg-green-700 p-4 text-center">
     Ir para o próximo passo!
 </a>

@@ -3,5 +3,4 @@ export const routes = {
     quizQuestion: (quizSlug: string, questionId: string) =>
         `/quiz/${quizSlug}/question/${questionId}`,
     quizResult: (quizSlug: string) => `/quiz/${quizSlug}/result`,
-    ebook: (ebookSlug: string) => `/ebook/${ebookSlug}`,
 };
