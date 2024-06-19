@@ -1,5 +1,4 @@
 <script lang="ts">
-    import { routes } from '$lib/shared/utils/routes';
     import Badge from 'lucide-svelte/icons/badge-check';
 
     const { data } = $props();

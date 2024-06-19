@@ -21,7 +21,8 @@ export const quizzes: Record<string, Quiz> = {
     'liberar-potencial': {
         name: 'Libere seu Potencial',
         firstQuestionId: '1',
-        resultCTALink: 'https://transformesuavida30dias.site/',
+        resultCTALink:
+            'https://transformesuavida30dias.site/novo-e-book-desbloqueando-seu-potencial/',
         questions: {
             '1': {
                 text: 'Qual a sua faixa etária?',
